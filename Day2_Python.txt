@@ -1,0 +1,39 @@
+---->  Definition of Python :
+       Python is High level, Interpreted and Dynamically typed programming language.
+	
+	* High level programmimg language:
+	  High level languages are programming languages which are used for writing programs or software which could be understood by humans and computer.
+
+	* Interpreted language:
+	  Interpreter executes line by line.
+	  Interpreter takes more time than compiler to execute because in Interpreted language machine will convert every line in byte code.
+	  So, each line is converted into byte code and checks errors and continues.So, they are slow.
+
+	* Dynamically typed programming language:
+	  No need to specify the data types.
+	  In the runtime, whichever is the datatype, it will assign themselves.
+	  Dynamically typed programming languages are the languages where the data types are initialised at run time.
+
+
+---->  Variable:
+       Variables are labels on top of registers.
+
+
+---->  Type Coversion Methods :
+       There are 3 type conversion methods in python.
+       They are int(), str(), float().
+       Type Conversion Methods converts the type of the variable.
+       Ex: 
+	   a=1;
+	   print(a)
+	   print(type(a))
+           b=str(a)
+	   print(b)
+	   print(type(b))
+
+
+	   o/p: 1
+		<class 'int'>
+		1
+		<class 'str'>
+
